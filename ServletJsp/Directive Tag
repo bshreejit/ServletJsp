@@ -1,0 +1,25 @@
+Practical implementation of JSP Directive : page, include, taglib
+
+There are different tags in JSP 
+- Scriplet
+- Directive
+- Declaration
+
+Directive tag has 3 types : 
+- @page -:import page, specify lang, specify for entire page,handle exception or not
+- @include -: add another page
+- @taglib -: tags and lib of tag can use external tags
+
+
+@page : 
+- it is used to import page, specify language, handle exception or specify any specific settings for entire page
+
+
+@include :
+- it is used to add another page
+
+
+@taglib :
+- it is used to include tags and library of tag. We can also use external tags.
+
+

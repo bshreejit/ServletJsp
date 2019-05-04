@@ -8,7 +8,8 @@
 </head>
 <body>
 	<h1>Addition of two numbers</h1>
-	<form action="display.jsp" method="get">
+	<!-- <form action="add" method="get"> -->
+	<form action="directive.jsp" method="get">
 		<table style="with: 50%">
 			<tr>
 				<td>First Number</td>
