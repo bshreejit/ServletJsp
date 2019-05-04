@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>ServletJsp</display-name>
+
+	<!-- Doesn't  Require when annotation @WebServlet("/add") is mentioned in the servlet class -->
+	
+	<!-- For calling add servlet -->
+	<!-- <servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>com.shreejit.urlRewriting.AddServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping> -->
+
+	<!-- For calling square Servlet -->
+	<!-- <servlet>
+		<servlet-name>sq</servlet-name>
+		<servlet-class>com.shreejit.urlRewriting.SqServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sq</servlet-name>
+		<url-pattern>/sq</url-pattern>
+	</servlet-mapping> -->
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
